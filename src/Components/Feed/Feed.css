@@ -1,0 +1,48 @@
+/* .feed {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 15px;
+} */
+ .feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    margin-top: 15px;
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+.feed a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 5px 0 ;
+  
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin: 6px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 768px){
+    .feed{
+        grid-template-columns: 1fr;
+    }
+}
