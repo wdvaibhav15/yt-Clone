@@ -12,6 +12,7 @@ const Home = ({sidebar}) => {
     <div className={`container ${sidebar?"":"large-container"}`}>
         <Feed category={category}/>
     </div>
+    
       
     </>
   )

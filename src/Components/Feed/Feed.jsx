@@ -40,6 +40,7 @@ const Feed = ({ category }) => {
           <h3>{item.snippet.channelTitle}</h3>
           <p>{value_convertor(item.statistics.viewCount)} views &bull; {moment(item.snippet.publishedAt).fromNow()}</p>
         </Link>
+        
       ))}
     </div>
   )
