@@ -7,7 +7,7 @@ import SideBar from './Components/SideBar/SideBar.jsx'
 
 const App = () => {
 
-  const[sidebar,setSidebar]=React.useState(true);
+  const[sidebar,setSidebar]=React.useState(false);
 
   return (
     <div>
