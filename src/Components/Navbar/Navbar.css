@@ -64,20 +64,24 @@ nav {
 
 @media (max-width: 900px) {
   .menu-icon{
-    display: none;
+    display: block;
   }
+
   .nav-right img{
     display: none;
   }
+
   .nav-right .user-icon{
     display: block;
     width: 30px;
   }
-  .logo{
-    width: 90px;
-  }
-  .nav-middle .search-box input{
-    width: 100px;
+
+  .nav-left .logo{
+    width: 120px;
   }
 
+  .nav-middle{
+    width: 38%;
+    padding: 6px 10px;
+  }
 }
